@@ -48,7 +48,7 @@
 				transform: translateX(-50%);
 				width: 100vw;
 				height: 1px;
-				background: $main-color--b;
+				background: $site-color02;
 				z-index: 1;
 			}
 			&::after{
@@ -59,7 +59,7 @@
 				transform: translateX(-50%);
 				width: 100vw;
 				height: 1px;
-				background: $main-color--b;
+				background: $site-color02
 			}
 			&.-colors_04{
 				li{
@@ -92,7 +92,7 @@
 						transform: translateY(-50%);
 						height: 100%;
 						width: 1px;
-						background: $main-color--b;
+						background: $site-color02;
 					}
 				}
 				&::after{
@@ -103,7 +103,7 @@
 					transform: translateY(-50%);
 					height: 100%;
 					width: 1px;
-					background: $main-color--b
+					background: $site-color02;
 				}
 				a{
 					display: block;
@@ -137,11 +137,11 @@
 					&.-active{
 						pointer-events: none;
 						span{
-							color: $site-color01;
+							color: $site-color02;
 							&::after{
 								width: 100%;
 								height: 1px;
-								background: $site-color01;
+								background: $site-color02;
 							}
 						}
 					}
@@ -195,10 +195,10 @@
 				// ホバー関係
 				&:hover{
 					span{
-						color: $site-color01;
+						color: $site-color02;
 						&::after{
 							width: 100%;
-							background: $site-color01;
+							background: $site-color02;
 						}
 					}
 				}

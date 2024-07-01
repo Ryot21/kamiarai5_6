@@ -43,7 +43,7 @@
 			transform: translateX(-50%);
 			width: 100vw;
 			height: 1px;
-			background: $main-color--b;
+			background: $site-color02;
 		}
 		// ボーダーなし
 		&.-no-b{
@@ -127,7 +127,7 @@
 							transform: translate(-50%, -50%);
 							height: 50%;
 							width: 1px;
-							background: $main-color--b;
+							background: $site-color02;
 						}
 						&::after{
 							content: "";
@@ -137,7 +137,7 @@
 							transform: translate(-50%, -50%);
 							height: 1px;
 							width: 98%;
-							background: $main-color--b;
+							background: $site-color02;
 						}
 						.top-left{
 							span{color: $main-color--b;}
