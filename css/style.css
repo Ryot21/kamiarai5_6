@@ -2794,6 +2794,13 @@ button.swiper-pagination-bullet {
   }
 }
 
+@media (768px >= width) {
+  .w60s {
+    width: 60% !important;
+    margin: auto;
+  }
+}
+
 .bannerArea {
   width: 60%;
   max-width: 400px;
@@ -4560,7 +4567,7 @@ button.swiper-pagination-bullet {
 }
 @media (width >= 768px) {
   .c-contents_title {
-    font-size: clamp(1.6rem, 2vw, 2.2rem);
+    font-size: clamp(1.6rem, 2vw, 2.5rem);
   }
 }
 .c-contents_title::before {
@@ -4704,6 +4711,22 @@ button.swiper-pagination-bullet {
 }
 .c-contents_title.-item::before {
   content: "CONVENIENT AND COMFORTABLE";
+  white-space: nowrap;
+}
+.c-contents_title.-message::before {
+  content: "MESSAGE FROM THE ARCHITECT & DESIGNER";
+  white-space: nowrap;
+}
+.c-contents_title.-level::before {
+  content: "GET THE IDEAL LIFESTYLE";
+  white-space: nowrap;
+}
+.c-contents_title.-style::before {
+  content: "GET THE IDEAL LIFESTYLE";
+  white-space: nowrap;
+}
+.c-contents_title.-house::before {
+  content: "JYUKYO'S HAPPY HOUSE";
   white-space: nowrap;
 }
 .c-contents_title.-sample::before {
@@ -5146,11 +5169,19 @@ button.swiper-pagination-bullet {
   }
 }
 @media (width >= 768px) {
-  .c-flex.-col1_2.-pc6_4 li:nth-child(1) {
-    width: calc(60% - 15px);
+  .c-flex.-col1_2.-pc3_7 li:nth-child(1) {
+    width: 25%;
   }
-  .c-flex.-col1_2.-pc6_4 li:nth-child(2) {
-    width: calc(40% - 15px);
+  .c-flex.-col1_2.-pc3_7 li:nth-child(2) {
+    width: 73%;
+  }
+}
+@media (width >= 1400px) {
+  .c-flex.-col1_2.-pc3_7 li:nth-child(1) {
+    width: 20%;
+  }
+  .c-flex.-col1_2.-pc3_7 li:nth-child(2) {
+    width: 78%;
   }
 }
 @media (width >= 768px) {

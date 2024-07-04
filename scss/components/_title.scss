@@ -6,7 +6,7 @@
     font-weight: bold;
     padding: 0 1px;
     @include min(768){
-        font-size: clamp(1.6rem, 2vw, 2.2rem);
+        font-size: clamp(1.6rem, 2vw, 2.5rem);
     }
 
     // コンテンツタイトル > 英語表記
@@ -84,6 +84,10 @@
     &.-owner{&::before{content: "OWNER VOICE"; white-space: nowrap;}}               // オーナー
 
     &.-item{&::before{content: "CONVENIENT AND COMFORTABLE"; white-space: nowrap;}}
+    &.-message{&::before{content: "MESSAGE FROM THE ARCHITECT & DESIGNER"; white-space: nowrap;}}
+    &.-level{&::before{content: "GET THE IDEAL LIFESTYLE"; white-space: nowrap;}}
+    &.-style{&::before{content: "GET THE IDEAL LIFESTYLE"; white-space: nowrap;}}
+    &.-house {&::before{content: "JYUKYO'S HAPPY HOUSE"; white-space: nowrap;}}
     &.-sample{&::before{content: "CONTENT TITLE"; white-space: nowrap;}}            // サンプル
 }
 

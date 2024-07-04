@@ -98,11 +98,15 @@
                 }
             }
         }
-        &.-pc6_4{
+        &.-pc3_7{
             li{
                 @include min(768){
-                    &:nth-child(1){width: calc(60% - 15px);}
-                    &:nth-child(2){width: calc(40% - 15px);}
+                    &:nth-child(1){width: 25%;}
+                    &:nth-child(2){width: 73%;}
+                }
+                @include min(1400){
+                    &:nth-child(1){width: 20%;}
+                    &:nth-child(2){width: 78%;}
                 }
             }
         }
