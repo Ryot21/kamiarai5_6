@@ -4544,6 +4544,14 @@ button.swiper-pagination-bullet {
 
 .c-contents_title {
   position: relative;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0 1px;
+}
+@media (width >= 768px) {
+  .c-contents_title {
+    font-size: clamp(1.6rem, 2vw, 2.2rem);
+  }
 }
 .c-contents_title::before {
   content: "";
@@ -4675,9 +4683,14 @@ button.swiper-pagination-bullet {
 
 .c-contents_MainTitle {
   position: relative;
-}
-.c-contents_MainTitle .s-LL {
+  font-size: 1.6rem;
+  font-weight: bold;
   padding: 0 1px;
+}
+@media (width >= 768px) {
+  .c-contents_MainTitle {
+    font-size: clamp(1.6rem, 2vw, 2.2rem);
+  }
 }
 .c-contents_MainTitle.-icon::after {
   content: "";
@@ -4922,7 +4935,7 @@ button.swiper-pagination-bullet {
   left: 50%;
   transform: translateX(-50%) scaleY(0.75);
   width: 100%;
-  color: #3b3b3b;
+  color: #008BBC;
 }
 .c-contents_subTitle.-borderBtm.-dot::before {
   border-bottom: 3px dotted;
