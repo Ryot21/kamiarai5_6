@@ -9,6 +9,7 @@
         font-size: clamp(1.6rem, 2vw, 2.2rem);
     }
 
+    // コンテンツタイトル > 英語表記
     &::before{
         content: "";
         position: absolute;
@@ -18,10 +19,12 @@
         width: auto;
         font-size: 10px;
         @include min(768) {
-            bottom: -45%;
-            font-size: 12px;
+            bottom: -50%;
         }
     }
+    &.-row2  {&::before{@include min(768){ bottom: -30%; }}}
+    &.-row2_s{&::before{@include max(768){ bottom: -40%; }}}
+
 
     // コンテンツタイトル > ボーダーライン
     &.-b-btm{
@@ -67,6 +70,7 @@
     &.-basinArea{&::before{content: "THE BASIN AREA"; white-space: nowrap;}}        // 水回り
     &.-kitchen{&::before{content: "KITCHEN";}}                                      // キッチン
     &.-bathroom{&::before{content: "BATHROOM";}}                                    // お風呂
+    &.-sanitary{&::before{content: "SANITARY";}}
     &.-window{&::before{content: "WINDOW";}}                                        // 窓
     &.-entrance{&::before{content: "ENTRANCE";}}                                    // 玄関
     &.-ex{&::before{content: "EXTERIOR & COMFORTABLE"; white-space: nowrap;}}       // 設備仕様
@@ -79,6 +83,7 @@
     &.-portfolio{&::before{content: "CONSTRUCTION PORTFOLIO"; white-space: nowrap;}}// 施工例
     &.-owner{&::before{content: "OWNER VOICE"; white-space: nowrap;}}               // オーナー
 
+    &.-item{&::before{content: "CONVENIENT AND COMFORTABLE"; white-space: nowrap;}}
     &.-sample{&::before{content: "CONTENT TITLE"; white-space: nowrap;}}            // サンプル
 }
 

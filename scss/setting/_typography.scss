@@ -115,6 +115,15 @@ h1,h2,h3,h4,h5,h6,p,a,span,label,button{
         }
     }
 
+    &.-balloon{
+        padding: .5% 1% .25%;
+        background: $site-color01;
+        border-radius: 30px;
+        @include min(768){
+
+        }
+    }
+
     // 太さ
     &.-b{font-weight: $f-b;}
 
@@ -177,6 +186,7 @@ h1,h2,h3,h4,h5,h6,p,a,span,label,button{
         &.s-ML{
             font-size: 1.6rem;
             @include min(768){font-size: clamp(1.6rem, 2vw, 2rem);}
+            &.-s10{@include max(768){font-size: 1rem;}}
             &.-s14{@include max(768){font-size: 1.4rem;}}
         }
         &.s-L{

@@ -83,6 +83,33 @@
             border-bottom: 1px solid $site-color04;
             span{color: $site-color04;}
         }
+        &.-comingSoon{
+            position: relative;
+            pointer-events: none;
+            border-bottom: 1px solid gray;
+            &::before{
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.479);
+                z-index: 1;
+            }
+            &::after{
+                content: "Cooming Soon";
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 100%;
+                color: $main-color--w;
+                filter: drop-shadow(1px 1px 3px black);
+                z-index: 2;
+            }
+        }
     }
     input:checked + .tab-item {
         border-top:    1px solid $main-color--b;
