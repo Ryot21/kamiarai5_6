@@ -61,6 +61,7 @@
 
     &.-layout{&::before{content: "LAYOUT PLAN / PLOT PLAN"; white-space: nowrap;}}  // レイアウト
     &.-house-layout{&::before{content: "HOUSE LAYOUT"; white-space: nowrap;}}       // ハウスレイアウト
+    &.-town-layout{&::before{content: "TOWN LAYOUT"; white-space: nowrap;}}         // タウンレイアウト
     &.-plan{&::before{content: "PLAN"; white-space: nowrap;}}                       // プラン
 
     &.-basinArea{&::before{content: "THE BASIN AREA"; white-space: nowrap;}}        // 水回り

@@ -4626,6 +4626,10 @@ button.swiper-pagination-bullet {
   content: "HOUSE LAYOUT";
   white-space: nowrap;
 }
+.c-contents_title.-town-layout::before {
+  content: "TOWN LAYOUT";
+  white-space: nowrap;
+}
 .c-contents_title.-plan::before {
   content: "PLAN";
   white-space: nowrap;
