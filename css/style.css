@@ -4729,8 +4729,12 @@ button.swiper-pagination-bullet {
   content: "JYUKYO'S HAPPY HOUSE";
   white-space: nowrap;
 }
-.c-contents_title.-sample::before {
-  content: "CONTENT TITLE";
+.c-contents_title.-house::before {
+  content: "JYUKYO'S HAPPY HOUSE";
+  white-space: nowrap;
+}
+.c-contents_title.-station::before {
+  content: "TOKOROZAWA STATION LIFE";
   white-space: nowrap;
 }
 
@@ -5406,39 +5410,17 @@ button.swiper-pagination-bullet {
     margin-left: 15px;
   }
 }
+.c-flex.-col2_4 {
+  flex-wrap: wrap;
+}
 @media (768px >= width) {
   .c-flex.-col2_4 li {
-    width: calc(50% - 5px);
-  }
-  .c-flex.-col2_4 li:nth-child(odd) {
-    margin-right: 5px;
-  }
-  .c-flex.-col2_4 li:nth-child(even) {
-    margin-left: 5px;
+    width: 48.5%;
   }
 }
 @media (width >= 768px) {
   .c-flex.-col2_4 li {
-    width: calc(25% - 10px);
-  }
-  .c-flex.-col2_4 li:nth-child(1) {
-    margin-right: 10px;
-  }
-  .c-flex.-col2_4 li:nth-child(2), .c-flex.-col2_4 li:nth-child(3) {
-    margin: 0 5px;
-  }
-  .c-flex.-col2_4 li:nth-child(4) {
-    margin-left: 10px;
-  }
-}
-@media (width >= 768px) {
-  .c-flex.-col2_4 li.text {
-    width: calc(35% - 15px);
-  }
-}
-@media (width >= 768px) {
-  .c-flex.-col2_4 li.img {
-    width: calc(65% - 15px);
+    width: 24.5%;
   }
 }
 .c-flex.-col5 li {
