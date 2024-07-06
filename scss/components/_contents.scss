@@ -107,78 +107,11 @@
 					}
 				}
 			}
-			&.-f-bird{
-				&_01{// 青
-					top: 20%;
-					left: 15%;
-					width: 5%;
-					@include min(768){// tb
-						top: 10%;
-						left: 2%;
-						width: 4%;
-					}
-					@include min(1400){// pc
-						top: 10%;
-						left: 15%;
-						width: 3%;
-					}
-				}
-				&_02{// うすい
-					top: 20%;
-					left: 23%;
-					width: 3%;
-					@include min(768){// tb
-						top: 7%;
-						left: 7%;
-						width: 3%;
-					}
-					@include min(1400){// pc
-						left: 18%;
-						width: 2%;
-					}
-				}
-				&_03{// 黄色
-					top: 35%;
-					left: 77%;
-					width: 5%;
-					@include min(768){// tb
-						top: 23.5%;
-						left: 91%;
-						width: 2%;
-					}
-					@include min(1400){// pc
-						top: 13.5%;
-						left: 78%;
-						width: 1.8%;
-					}
-				}
-				&_04{// 緑
-					@include min(768){// tb
-						top: 57%;
-						left: 65%;
-						width: 1.5%;
-					}
-					@include min(1400){// pc
-						top: 60%;
-						left: 56%;
-						width: 1%;
-					}
-				}
-			}
-			&.-f-border{
-				top: 36%;
-				left: 25%;
-				width: 50%;
-				@include min(768){// tb
-					top: 25%;
-					left: 67%;
-					width: 24%;
-				}
-				@include min(1400){// pc
-					top: 17%;
-					left: 60%;
-					width: 18%;
-				}
+			&.-f-text{
+				bottom: 0%;
+				right: -3.5%;
+				width: auto;
+				text-shadow: 0 0 0 gray;
 			}
 		}
 	}

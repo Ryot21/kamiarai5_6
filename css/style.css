@@ -465,7 +465,6 @@ h1.s-3L, h2.s-3L, h3.s-3L, h4.s-3L, h5.s-3L, h6.s-3L, p.s-3L, a.s-3L, span.s-3L,
 }
 h1.s-kome, h2.s-kome, h3.s-kome, h4.s-kome, h5.s-kome, h6.s-kome, p.s-kome, a.s-kome, span.s-kome, label.s-kome, button.s-kome {
   font-size: 1rem;
-  color: #dacebc;
   transform: scale(0.8);
 }
 @media (width >= 768px) {
@@ -4218,94 +4217,11 @@ button.swiper-pagination-bullet {
     left: 72%;
   }
 }
-.c-contents.-f-slider .c-contentsBox.-f-bird_01 {
-  top: 20%;
-  left: 15%;
-  width: 5%;
-}
-@media (width >= 768px) {
-  .c-contents.-f-slider .c-contentsBox.-f-bird_01 {
-    top: 10%;
-    left: 2%;
-    width: 4%;
-  }
-}
-@media (width >= 1400px) {
-  .c-contents.-f-slider .c-contentsBox.-f-bird_01 {
-    top: 10%;
-    left: 15%;
-    width: 3%;
-  }
-}
-.c-contents.-f-slider .c-contentsBox.-f-bird_02 {
-  top: 20%;
-  left: 23%;
-  width: 3%;
-}
-@media (width >= 768px) {
-  .c-contents.-f-slider .c-contentsBox.-f-bird_02 {
-    top: 7%;
-    left: 7%;
-    width: 3%;
-  }
-}
-@media (width >= 1400px) {
-  .c-contents.-f-slider .c-contentsBox.-f-bird_02 {
-    left: 18%;
-    width: 2%;
-  }
-}
-.c-contents.-f-slider .c-contentsBox.-f-bird_03 {
-  top: 35%;
-  left: 77%;
-  width: 5%;
-}
-@media (width >= 768px) {
-  .c-contents.-f-slider .c-contentsBox.-f-bird_03 {
-    top: 23.5%;
-    left: 91%;
-    width: 2%;
-  }
-}
-@media (width >= 1400px) {
-  .c-contents.-f-slider .c-contentsBox.-f-bird_03 {
-    top: 13.5%;
-    left: 78%;
-    width: 1.8%;
-  }
-}
-@media (width >= 768px) {
-  .c-contents.-f-slider .c-contentsBox.-f-bird_04 {
-    top: 57%;
-    left: 65%;
-    width: 1.5%;
-  }
-}
-@media (width >= 1400px) {
-  .c-contents.-f-slider .c-contentsBox.-f-bird_04 {
-    top: 60%;
-    left: 56%;
-    width: 1%;
-  }
-}
-.c-contents.-f-slider .c-contentsBox.-f-border {
-  top: 36%;
-  left: 25%;
-  width: 50%;
-}
-@media (width >= 768px) {
-  .c-contents.-f-slider .c-contentsBox.-f-border {
-    top: 25%;
-    left: 67%;
-    width: 24%;
-  }
-}
-@media (width >= 1400px) {
-  .c-contents.-f-slider .c-contentsBox.-f-border {
-    top: 17%;
-    left: 60%;
-    width: 18%;
-  }
+.c-contents.-f-slider .c-contentsBox.-f-text {
+  bottom: 0%;
+  right: -3.5%;
+  width: auto;
+  text-shadow: 0 0 0 gray;
 }
 .c-contents.-f-view {
   position: relative;
